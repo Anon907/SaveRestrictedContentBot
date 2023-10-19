@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+API_ID = config("24082128", default=None, cast=int)
+API_HASH = config(dfac987a12a41d1075e691d94f9d4802"", default=None)
+BOT_TOKEN = config("6628752841:AAE_i6jYHgn7abCScGC1jEMtXum77AuHMzI", default=None)
+SESSION = config("1BVtsOLIBu6zMceJCB7U2Uqzs08bGtelJpGc1ETqh_co4whzX3Cl7KDTmgIC8jxx92jCWpNPW5tLGEKmbxQC5n3sU1rGD29hEjC4bhxRcK8bcGN4_4vlSoy_fUXhIsrGXntGDfeW4YMIX9gmtO4BLO73tP9Z0XSjPgikCLDERO8n1zf3kQZNxPiMuvp5pXGnu5CPtP9nd1F5RadjKs90bFWoj8P987-rwC8gyTDjXqTWZsyIq3ewKwrG6fjlKR0mw8pfDEgbig8a85kWQocpBX_zQFW74WNgdPmhV7BDD5Xhf7A3aPeFgB2ZnC93x_WcLncYDVhnZ2ETTi-yEW2v_zJhJOtXb6Z4=", default=None)
+FORCESUB = config("ZikaStore907", default=None)
+AUTH = config("1914436153", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
